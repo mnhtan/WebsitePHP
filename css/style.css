@@ -1,0 +1,135 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    border: 0px solid   #000;
+    height: 700px;
+    width: 90%;
+    margin:0 auto;
+}
+.header{
+    height: 130px;
+    border: 0px solid   #1726ac;
+    background-image: url("../images/cat-banner-2.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 530px;
+    height: 530px;
+    width: 100%;
+}
+.menu{
+    border: 0px solid   #168f3a;
+    background-color: #045c33;
+    height: 50px;
+    width: 100%;
+}
+ul.listmenu li {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+ul.listmenu li:hover{
+    background  :burlywood ;
+}
+ul.listmenu li a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.listmenu{
+    margin:0;
+    width: 60%;
+    padding: 0;
+    border: 1px solid saddlebrown;
+    list-style: none ;  
+    margin: 0 auto;
+    line-height: 27px;
+    margin-right: 20px;
+}
+#main{
+    border: 0px solid   #b31919;
+    background-color: #0f9fc4;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid magenta;
+    height: 390px;
+    width:  20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+    padding: 0;
+
+}
+ul.list_sidebar li {
+    margin: 5px;
+    padding: 5px;
+    list-style-type: none;
+    
+}
+ul.list_sidebar li a {
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    
+}
+ul.list_sidebar li:hover{
+    background  :burlywood ;
+}
+
+.maincontent{
+    border: 1px solid chocolate;
+    height: auto;
+    width:  78%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: right;
+}
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 100%;
+    
+}
+ul.product_list li img {
+    width: 100%;
+}
+ul.product_list li {
+    margin: 3px;
+    padding: 1px;
+    width: 19%;
+    border: 1px solid #000;
+    float: left;
+    background-color: hsla(187, 70%, 42%, 0.582);
+}
+p.name_product {
+    text-align: center;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+ul.product_list li a{
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    border: 1px solid   #a2ac21;
+    background-color: #5621ac;
+    height: 150px;
+    width: 100%;
+}
+.footer_coppyrighting{
+    text-align: center;
+    color: #000;
+    font-size: larger   ;
+    font-weight: bold;
+}

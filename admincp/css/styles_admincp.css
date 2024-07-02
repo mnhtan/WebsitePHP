@@ -1,0 +1,31 @@
+.admincp_menu_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.admincp_menu_list li {
+    margin: 7px;
+    padding: 7px;
+    float: left;
+}
+.Clear{
+    clear: both;
+}
+
+.admincp_menu_list li a {
+    margin: 7px;
+    padding: 7px;
+    text-decoration: none;
+}
+.wrapper{
+    border: 1px solid   #000;
+    height: 700px;
+    width: 90%;
+    margin:0 auto;
+}
+.title_page{
+    font-size :25pt ;
+    color:#34689C !important;
+    text-align: center;
+}
